@@ -1,5 +1,5 @@
 import torch
-from kosmog.main import KosmosG
+from kosmosg.main import KosmosG
 
 # usage
 img = torch.randn(1, 3, 256, 256)
