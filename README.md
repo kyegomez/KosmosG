@@ -18,13 +18,16 @@ text = torch.randint(0, 20000, (1, 1024))
 model = KosmosG()
 output = model(img, text)
 print(output)
-
 ```
+
+## Architecture
+`text, image => KosmosG => text tokens with multi modality understanding`
 
 # License
 MIT
 
-
 # Todo
 - Create Aligner in pytorch
 - Create Diffusion module
+- Integrate these pieces
+- Create a training script
