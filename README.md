@@ -23,10 +23,10 @@ print(output)
 ## Architecture
 `text, image => KosmosG => text tokens with multi modality understanding`
 
-# License
+## License
 MIT
 
-# Todo
+## Todo
 - Create Aligner in pytorch
 - Create Diffusion module
 - Integrate these pieces
