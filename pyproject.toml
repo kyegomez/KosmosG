@@ -3,15 +3,15 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "paper"
+name = "kosmosg"
 version = "0.0.1"
-description = "Paper - Pytorch"
+description = "kosmosg - Pytorch"
 license = "MIT"
 authors = ["Kye Gomez <kye@apac.ai>"]
-homepage = "https://github.com/kyegomez/paper"
+homepage = "https://github.com/kyegomez/KosmosG"
 documentation = ""  # Add this if you have documentation.
 readme = "README.md"  # Assuming you have a README.md
-repository = "https://github.com/kyegomez/paper"
+repository = "https://github.com/kyegomez/KosmosG"
 keywords = ["artificial intelligence", "deep learning", "optimizers", "Prompt Engineering"]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -23,6 +23,10 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.6"
+torch = "*"
+torchscale = "*"
+einops = "*"
+zetascale = "*"
 
 
 [tool.poetry.dev-dependencies]
@@ -37,7 +41,6 @@ types-pytz = "^2023.3.0.0"
 black = "^23.1.0"
 types-chardet = "^5.0.4.6"
 mypy-protobuf = "^3.0.0"
-
 
 [tool.autopep8]
 max_line_length = 120
