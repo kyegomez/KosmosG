@@ -101,7 +101,3 @@ class CM3LeonTokenizer(Tokenizer):
         seq = text + outputs.image_embeds.tolist()
         return seq
     
-
-tokenizer = CM3LeonTokenizer(model_path="tokenizers/sentencepiece.bpe.model")
-tokens = tokenizer.encoded("this is a description", image="agorabanner.png")
-print(tokens)
